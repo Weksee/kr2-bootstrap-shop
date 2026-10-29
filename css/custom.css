@@ -1,0 +1,40 @@
+/* Минимальные доработки поверх Bootstrap */
+
+body {
+  min-height: 100vh;
+}
+
+/* ПЗ №9: временный блок изображения */
+.placeholder-box {
+  min-height: 240px;
+}
+
+/* ПЗ №10: временный блок изображения товара */
+.placeholder-image {
+  min-height: 320px;
+}
+
+/* Изображения в карточках каталога */
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  background-color: #e9ecef;
+}
+
+/* Изображение в hero-блоке */
+.hero-image {
+  width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+  background-color: #e9ecef;
+  min-height: 200px;
+}
+
+/* Изображение на странице товара */
+.product-image {
+  width: 100%;
+  max-height: 420px;
+  min-height: 240px;
+  object-fit: cover;
+  background-color: #e9ecef;
+}
